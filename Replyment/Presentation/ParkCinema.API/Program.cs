@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using ParkCinema.Infrastructure;
-using ParkCinema.Persistance.Context;
-using ParkCinema.Persistance.ExtensionsMethods;
+using Replyment.Infrastructure;
+using Replyment.Persistance.Context;
+using Replyment.Persistance.ExtensionsMethods;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

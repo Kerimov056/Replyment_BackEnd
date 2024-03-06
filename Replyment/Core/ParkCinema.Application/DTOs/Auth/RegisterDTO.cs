@@ -1,3 +1,3 @@
-﻿namespace ParkCinema.Application.DTOs.Auth;
+﻿namespace Replyment.Application.DTOs.Auth;
 
 public record RegisterDTO(string? Fullname, string Username, string Email, string password, DateTime? BirthDate);

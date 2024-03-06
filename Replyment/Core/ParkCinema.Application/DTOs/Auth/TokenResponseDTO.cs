@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.DTOs.Auth;
+﻿namespace Replyment.Application.DTOs.Auth;
 
 public record TokenResponseDTO(string token,
                                DateTime expireDate,

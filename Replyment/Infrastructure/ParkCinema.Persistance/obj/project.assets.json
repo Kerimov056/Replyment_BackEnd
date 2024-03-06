@@ -1498,7 +1498,7 @@
           }
         }
       },
-      "ParkCinema.Application/1.0.0": {
+      "Replyment.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1508,16 +1508,16 @@
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.IdentityModel.Tokens": "7.0.3",
-          "ParkCinema.Domain": "1.0.0"
+          "Replyment.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ParkCinema.Application.dll": {}
+          "bin/placeholder/Replyment.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ParkCinema.Application.dll": {}
+          "bin/placeholder/Replyment.Application.dll": {}
         }
       },
-      "ParkCinema.Domain/1.0.0": {
+      "Replyment.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1529,13 +1529,13 @@
           "Microsoft.IdentityModel.Tokens": "7.0.3"
         },
         "compile": {
-          "bin/placeholder/ParkCinema.Domain.dll": {}
+          "bin/placeholder/Replyment.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ParkCinema.Domain.dll": {}
+          "bin/placeholder/Replyment.Domain.dll": {}
         }
       },
-      "ParkCinema.Infrastructure/1.0.0": {
+      "Replyment.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1544,17 +1544,17 @@
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.IdentityModel.Tokens": "7.0.3",
-          "ParkCinema.Application": "1.0.0",
           "QRCoder": "1.4.3",
+          "Replyment.Application": "1.0.0",
           "Stripe.net": "43.2.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3",
           "System.ServiceModel.Primitives": "6.1.0"
         },
         "compile": {
-          "bin/placeholder/ParkCinema.Infrastructure.dll": {}
+          "bin/placeholder/Replyment.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ParkCinema.Infrastructure.dll": {}
+          "bin/placeholder/Replyment.Infrastructure.dll": {}
         }
       }
     }
@@ -3479,20 +3479,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ParkCinema.Application/1.0.0": {
+    "Replyment.Application/1.0.0": {
       "type": "project",
-      "path": "../../Core/ParkCinema.Application/ParkCinema.Application.csproj",
-      "msbuildProject": "../../Core/ParkCinema.Application/ParkCinema.Application.csproj"
+      "path": "../../Core/ParkCinema.Application/Replyment.Application.csproj",
+      "msbuildProject": "../../Core/ParkCinema.Application/Replyment.Application.csproj"
     },
-    "ParkCinema.Domain/1.0.0": {
+    "Replyment.Domain/1.0.0": {
       "type": "project",
-      "path": "../../Core/ParkCinema.Domain/ParkCinema.Domain.csproj",
-      "msbuildProject": "../../Core/ParkCinema.Domain/ParkCinema.Domain.csproj"
+      "path": "../../Core/ParkCinema.Domain/Replyment.Domain.csproj",
+      "msbuildProject": "../../Core/ParkCinema.Domain/Replyment.Domain.csproj"
     },
-    "ParkCinema.Infrastructure/1.0.0": {
+    "Replyment.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../ParkCinema.Infrastructure/ParkCinema.Infrastructure.csproj",
-      "msbuildProject": "../ParkCinema.Infrastructure/ParkCinema.Infrastructure.csproj"
+      "path": "../ParkCinema.Infrastructure/Replyment.Infrastructure.csproj",
+      "msbuildProject": "../ParkCinema.Infrastructure/Replyment.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3508,26 +3508,31 @@
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.20",
       "Microsoft.IdentityModel.Tokens >= 7.0.3",
-      "ParkCinema.Application >= 1.0.0",
-      "ParkCinema.Infrastructure >= 1.0.0",
       "QRCoder >= 1.4.3",
+      "Replyment.Application >= 1.0.0",
+      "Replyment.Infrastructure >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 7.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Legion\\.nuget\\packages\\": {}
+    "C:\\Users\\enelry\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Infrastructure\\ParkCinema.Persistance\\ParkCinema.Persistance.csproj",
-      "projectName": "ParkCinema.Persistance",
-      "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Infrastructure\\ParkCinema.Persistance\\ParkCinema.Persistance.csproj",
-      "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-      "outputPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Infrastructure\\ParkCinema.Persistance\\obj\\",
+      "projectUniqueName": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj",
+      "projectName": "Replyment.Persistance",
+      "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj",
+      "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3541,11 +3546,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj": {
-              "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj"
+            "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\Replyment.Application.csproj": {
+              "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\Replyment.Application.csproj"
             },
-            "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Infrastructure\\ParkCinema.Infrastructure\\ParkCinema.Infrastructure.csproj": {
-              "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Infrastructure\\ParkCinema.Infrastructure\\ParkCinema.Infrastructure.csproj"
+            "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj"
             }
           }
         }
@@ -3554,6 +3559,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3629,7 +3639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

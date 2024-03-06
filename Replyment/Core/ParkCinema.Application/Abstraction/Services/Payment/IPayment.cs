@@ -1,6 +1,6 @@
 ﻿using EndProject.Application.DTOs.Payment;
 
-namespace ParkCinema.Application.Abstraction.Services.Payment;
+namespace Replyment.Application.Abstraction.Services.Payment;
 
 public interface IPayment
 {

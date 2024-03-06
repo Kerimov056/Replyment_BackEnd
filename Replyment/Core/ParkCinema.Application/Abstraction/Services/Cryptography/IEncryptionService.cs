@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.Abstraction.Services.Cryptography;
+﻿namespace Replyment.Application.Abstraction.Services.Cryptography;
 
 public interface IEncryptionService
 {

@@ -1,7 +1,7 @@
-﻿using ParkCinema.Application.DTOs.Auth;
-using ParkCinema.Domain.Helpers;
+﻿using Replyment.Application.DTOs.Auth;
+using Replyment.Domain.Helpers;
 
-namespace ParkCinema.Application.Abstraction.Services;
+namespace Replyment.Application.Abstraction.Services;
 
 public interface IAuthService
 {

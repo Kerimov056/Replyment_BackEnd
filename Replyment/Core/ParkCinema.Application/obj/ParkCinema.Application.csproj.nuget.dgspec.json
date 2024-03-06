@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj": {}
+    "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj": {}
   },
   "projects": {
-    "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj": {
+    "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj",
+        "projectUniqueName": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj",
         "projectName": "ParkCinema.Application",
-        "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj",
-        "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-        "outputPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Application\\obj\\",
+        "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\ParkCinema.Application.csproj",
+        "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj": {
-                "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj"
+              "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj": {
+                "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj"
               }
             }
           }
@@ -38,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,21 +94,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj": {
+    "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj",
         "projectName": "ParkCinema.Domain",
-        "projectPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj",
-        "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-        "outputPath": "D:\\work2\\Asp.Net API\\ApiProje\\MyProject\\Core\\ParkCinema.Domain\\obj\\",
+        "projectPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\ParkCinema.Domain.csproj",
+        "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,6 +132,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

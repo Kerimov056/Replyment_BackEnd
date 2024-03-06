@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.DTOs.Auth;
-using ParkCinema.Domain.Entities;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.DTOs.Auth;
+using Replyment.Domain.Entities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ParkCinema.Infrastructure.Services.TokenResponseJwt;
+namespace Replyment.Infrastructure.Services.TokenResponseJwt;
 
 public class TokkenHandler : ITokenHandler
 {

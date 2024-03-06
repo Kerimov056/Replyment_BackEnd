@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using ParkCinema.Application.DTOs.Slider;
+using Replyment.Application.DTOs.Slider;
 
-namespace ParkCinema.Application.Validators.SliderValidators;
+namespace Replyment.Application.Validators.SliderValidators;
 
 public class SliderGetDtoValidator : AbstractValidator<SliderGetDTO>
 {

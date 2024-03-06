@@ -1,7 +1,7 @@
 ﻿using EndProject.Application.DTOs.Payment;
-using ParkCinema.Application.Abstraction.Services.Payment.PayPal;
+using Replyment.Application.Abstraction.Services.Payment.PayPal;
 
-namespace ParkCinema.Infrastructure.Services.Payment.PayPal;
+namespace Replyment.Infrastructure.Services.Payment.PayPal;
 
 public class PayPalService : IPayPalPayment
 {

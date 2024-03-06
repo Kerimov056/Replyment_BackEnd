@@ -1,6 +1,6 @@
-﻿using ParkCinema.Domain.Entities.Common;
+﻿using Replyment.Domain.Entities.Common;
 
-namespace ParkCinema.Application.Abstraction.Repositories;
+namespace Replyment.Application.Abstraction.Repositories;
 
 public interface IWriteRepository<T> :IRepository<T> where T : BaseEntity, new()
 {

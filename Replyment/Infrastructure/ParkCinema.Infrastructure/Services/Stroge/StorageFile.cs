@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
-using ParkCinema.Application.Abstraction.Services.Stroge;
+using Replyment.Application.Abstraction.Services.Stroge;
 
-namespace ParkCinema.Infrastructure.Services.Stroge;
+namespace Replyment.Infrastructure.Services.Stroge;
 
 public class StorageFile : IStorageFile
 {

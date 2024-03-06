@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using ParkCinema.Domain.Entities;
-using ParkCinema.Domain.Enums;
+using Replyment.Domain.Entities;
+using Replyment.Domain.Enums;
 
-namespace ParkCinema.Persistance.Context;
+namespace Replyment.Persistance.Context;
 
 public class AppDbContextInitializer
 {

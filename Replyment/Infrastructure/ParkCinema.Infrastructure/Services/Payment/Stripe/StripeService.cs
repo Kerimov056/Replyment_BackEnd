@@ -1,9 +1,9 @@
 ﻿using EndProject.Application.DTOs.Payment;
 using Microsoft.Extensions.Configuration;
-using ParkCinema.Application.Abstraction.Services.Payment.Stripe;
+using Replyment.Application.Abstraction.Services.Payment.Stripe;
 using Stripe;
 
-namespace ParkCinema.Infrastructure.Services.Payment.Stripe;
+namespace Replyment.Infrastructure.Services.Payment.Stripe;
 
 public class StripeService : IStripePayment
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace ParkCinema.Domain.Entities;
+namespace Replyment.Domain.Entities;
 
 public class AppUser:IdentityUser
 {

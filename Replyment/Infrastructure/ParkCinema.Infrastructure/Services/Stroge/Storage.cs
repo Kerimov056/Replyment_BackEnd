@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Infrastructure.Services.Stroge;
+﻿namespace Replyment.Infrastructure.Services.Stroge;
 
 public class Storage
 {

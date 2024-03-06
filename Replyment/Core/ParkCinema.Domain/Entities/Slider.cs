@@ -1,6 +1,6 @@
-﻿using ParkCinema.Domain.Entities.Common;
+﻿using Replyment.Domain.Entities.Common;
 
-namespace ParkCinema.Domain.Entities;
+namespace Replyment.Domain.Entities;
 
 public class Slider: BaseEntity
 {

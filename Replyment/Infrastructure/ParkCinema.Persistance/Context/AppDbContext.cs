@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ParkCinema.Domain.Entities;
-using ParkCinema.Persistance.Configurations;
+using Replyment.Domain.Entities;
+using Replyment.Persistance.Configurations;
 
-namespace ParkCinema.Persistance.Context;
+namespace Replyment.Persistance.Context;
 
 public class AppDbContext : IdentityDbContext<AppUser>
 {
@@ -16,4 +16,5 @@ public class AppDbContext : IdentityDbContext<AppUser>
     }
 
     public DbSet<Slider> Sliders { get; set; }
+    public DbSet<CustomizeButton> CustomizeButtons { get; set; }
 }

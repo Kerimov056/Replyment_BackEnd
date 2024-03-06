@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.DTOs.Auth;
-using ParkCinema.Domain.Entities;
-using ParkCinema.Domain.Enums;
-using ParkCinema.Domain.Helpers;
-using ParkCinema.Persistance.Context;
-using ParkCinema.Persistance.Exceptions;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.DTOs.Auth;
+using Replyment.Domain.Entities;
+using Replyment.Domain.Enums;
+using Replyment.Domain.Helpers;
+using Replyment.Persistance.Context;
+using Replyment.Persistance.Exceptions;
 using System.Text;
 
-namespace ParkCinema.Persistance.Implementations.Services;
+namespace Replyment.Persistance.Implementations.Services;
 
 public class AuthService : IAuthService
 {

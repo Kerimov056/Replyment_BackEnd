@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ParkCinema.Application.Abstraction.Repositories;
-using ParkCinema.Domain.Entities.Common;
-using ParkCinema.Persistance.Context;
+using Replyment.Application.Abstraction.Repositories;
+using Replyment.Domain.Entities.Common;
+using Replyment.Persistance.Context;
 
-namespace ParkCinema.Persistance.Implementations.Repositories;
+namespace Replyment.Persistance.Implementations.Repositories;
 
 public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new()
 {

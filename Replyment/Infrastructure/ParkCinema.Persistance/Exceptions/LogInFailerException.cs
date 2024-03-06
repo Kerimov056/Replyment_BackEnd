@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace ParkCinema.Persistance.Exceptions;
+namespace Replyment.Persistance.Exceptions;
 
 public class LogInFailerException : Exception, IBaseException
 {

@@ -6,17 +6,19 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using ParkCinema.Application.Abstraction.Repositories.IEntityRepository;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.Validators.SliderValidators;
-using ParkCinema.Domain.Entities;
-using ParkCinema.Persistance.Context;
-using ParkCinema.Persistance.Implementations.Repositories.IEntityRepository;
-using ParkCinema.Persistance.Implementations.Services;
-using ParkCinema.Persistance.MapperProfiles;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomizeButtonRepo;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.Validators.SliderValidators;
+using Replyment.Domain.Entities;
+using Replyment.Persistance.Context;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.CustomizeButtonRepo;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SliderRepo;
+using Replyment.Persistance.Implementations.Services;
+using Replyment.Persistance.MapperProfiles;
 using System.Text;
 
-namespace ParkCinema.Persistance.ExtensionsMethods;
+namespace Replyment.Persistance.ExtensionsMethods;
 
 public static class ServiceRegistration
 {
@@ -36,6 +38,7 @@ public static class ServiceRegistration
         //Service
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<ISliderServices,SliderServices>();
+        services.AddScoped<ICustomizeButtonService, CustomizeButtonService>();
 
 
         //User
@@ -68,11 +71,13 @@ public static class ServiceRegistration
     private static void AddReadRepositories(this IServiceCollection services)
     {
         services.AddScoped<ISliderReadRepository, SliderReadRepository>();
+        services.AddScoped<ICustomizeButtonReadRepository, CustomizeButtonReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
     {
         services.AddScoped<ISliderWriteRepository, SliderWriteRepository>();
+        services.AddScoped<ICustomizeButtonWriteRepository, CustomizeButtonWriteRepository>();
     }
 
 }

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using ParkCinema.Application.DTOs.Slider;
-using ParkCinema.Domain.Entities;
+using Replyment.Application.DTOs.Slider;
+using Replyment.Domain.Entities;
 
-namespace ParkCinema.Persistance.MapperProfiles;
+namespace Replyment.Persistance.MapperProfiles;
 
 public class SliderProfile : Profile
 {

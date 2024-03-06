@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace ParkCinema.Persistance.ExtensionsMethods;
+namespace Replyment.Persistance.ExtensionsMethods;
 
 public static class FileExtentions
 {

@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Domain.Enums;
+﻿namespace Replyment.Domain.Enums;
 
 public enum Role
 {

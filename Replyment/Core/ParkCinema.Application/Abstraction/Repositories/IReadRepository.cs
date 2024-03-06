@@ -1,7 +1,7 @@
-﻿using ParkCinema.Domain.Entities.Common;
+﻿using Replyment.Domain.Entities.Common;
 using System.Linq.Expressions;
 
-namespace ParkCinema.Application.Abstraction.Repositories;
+namespace Replyment.Application.Abstraction.Repositories;
 
 public interface IReadRepository<T>:IRepository<T> where T : BaseEntity, new()
 {

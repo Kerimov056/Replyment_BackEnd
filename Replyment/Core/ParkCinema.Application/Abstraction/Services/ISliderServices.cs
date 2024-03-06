@@ -1,6 +1,6 @@
-﻿using ParkCinema.Application.DTOs.Slider;
+﻿using Replyment.Application.DTOs.Slider;
 
-namespace ParkCinema.Application.Abstraction.Services;
+namespace Replyment.Application.Abstraction.Services;
 
 public interface ISliderServices
 {

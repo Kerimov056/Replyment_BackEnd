@@ -1,24 +1,26 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using ParkCinema.Application.Abstraction.Services.Payment.PayPal;
-using ParkCinema.Application.Abstraction.Services.Payment.Stripe;
-using ParkCinema.Application.Abstraction.Services.Payment;
-using ParkCinema.Application.Abstraction.Services.Stroge;
-using ParkCinema.Application.Abstraction.Services.Stroge.Local;
-using ParkCinema.Infrastructure.Services;
-using ParkCinema.Infrastructure.Services.Stroge;
-using ParkCinema.Infrastructure.Services.Stroge.Local;
+using Replyment.Application.Abstraction.Services.Payment.PayPal;
+using Replyment.Application.Abstraction.Services.Payment.Stripe;
+using Replyment.Application.Abstraction.Services.Payment;
+using Replyment.Application.Abstraction.Services.Stroge;
+using Replyment.Application.Abstraction.Services.Stroge.Local;
+using Replyment.Infrastructure.Services;
+using Replyment.Infrastructure.Services.Stroge;
+using Replyment.Infrastructure.Services.Stroge.Local;
 using Stripe;
-using ParkCinema.Infrastructure.Services.Payment.Stripe;
-using ParkCinema.Infrastructure.Services.Payment.PayPal;
-using ParkCinema.Application.Abstraction.Services.QrCode;
-using ParkCinema.Infrastructure.Services.QrCode;
-using ParkCinema.Application.Abstraction.Services.Cryptography;
-using ParkCinema.Infrastructure.Services.Cryptography;
+using Replyment.Infrastructure.Services.Payment.Stripe;
+using Replyment.Infrastructure.Services.Payment.PayPal;
+using Replyment.Application.Abstraction.Services.QrCode;
+using Replyment.Infrastructure.Services.QrCode;
+using Replyment.Application.Abstraction.Services.Cryptography;
+using Replyment.Infrastructure.Services.Cryptography;
 using Microsoft.IdentityModel.Tokens;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Infrastructure.Services.TokenResponseJwt;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Infrastructure.Services.TokenResponseJwt;
+using Replyment.Application.Abstraction.Services.Email;
+using Replyment.Infrastructure.Services.Email;
 
-namespace ParkCinema.Infrastructure;
+namespace Replyment.Infrastructure;
 
 public static class ServiceRegistration
 {
@@ -47,6 +49,9 @@ public static class ServiceRegistration
 
         //Cryptography 
         services.AddScoped<IEncryptionService, EncryptionService>();
+
+        //Email
+        services.AddScoped<IEmailService, EmailService>();
     }
 
     public static void AddStorageFile<T>(this IServiceCollection services) where T : Storage, IStorageFile

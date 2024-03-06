@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkCinema.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28fce6390b594abc0d707a008c5fc2934d3444a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkCinema.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkCinema.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

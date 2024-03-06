@@ -1,8 +1,8 @@
-﻿using ParkCinema.Application.Abstraction.Services.Cryptography;
+﻿using Replyment.Application.Abstraction.Services.Cryptography;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ParkCinema.Infrastructure.Services.Cryptography;
+namespace Replyment.Infrastructure.Services.Cryptography;
 
 public class EncryptionService : IEncryptionService
 {

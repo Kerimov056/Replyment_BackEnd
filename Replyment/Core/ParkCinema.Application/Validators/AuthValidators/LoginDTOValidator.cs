@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using ParkCinema.Application.DTOs.Auth;
+using Replyment.Application.DTOs.Auth;
 
 namespace EndProject.Application.Validators.AuthValidators;
 

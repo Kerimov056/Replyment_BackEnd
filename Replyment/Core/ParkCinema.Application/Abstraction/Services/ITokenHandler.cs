@@ -1,7 +1,7 @@
-﻿using ParkCinema.Application.DTOs.Auth;
-using ParkCinema.Domain.Entities;
+﻿using Replyment.Application.DTOs.Auth;
+using Replyment.Domain.Entities;
 
-namespace ParkCinema.Application.Abstraction.Services;
+namespace Replyment.Application.Abstraction.Services;
 
 public interface ITokenHandler
 {

@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.DTOs.ResponseDTOs;
+﻿namespace Replyment.Application.DTOs.ResponseDTOs;
 
 public class ExceptionResponseDto
 {

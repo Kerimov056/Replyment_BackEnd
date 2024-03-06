@@ -1,19 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.DTOs.Auth;
-using ParkCinema.Domain.Helpers;
+﻿using FluentValidation.Validators;
+using Microsoft.AspNetCore.Mvc;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.Abstraction.Services.Email;
+using Replyment.Application.DTOs.Auth;
+using Replyment.Domain.Helpers;
 
-namespace ParkCinema.API.Controllers;
+namespace Replyment.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
+    private readonly IEmailService _emailService;
 
-    public AuthController(IAuthService authService)
+    public AuthController(IAuthService authService, IEmailService emailService)
     {
         _authService = authService;
+        _emailService = emailService;
     }
 
     [HttpPost("Login")]
@@ -40,16 +44,18 @@ public class AuthController : ControllerBase
         }
         else
         {
-            //string subject = "Register Confirmation";
-            //string html = string.Empty;
-            //string password = registerDTO.password;
+            string subject = "Register Confirmation";
+            string html = string.Empty;
+            string password = registerDTO.password;
+            string username = registerDTO.Username;
 
-            //string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "verify.html");
-            //html = System.IO.File.ReadAllText(filePath);
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "Register.html");
+            html = System.IO.File.ReadAllText(filePath);
 
-            //html = html.Replace("{{password}}", password);
+            html = html.Replace("{{password}}", password);
+            html = html.Replace("{{username}}", password);
 
-            //_emailService.Send(registerDTO.Email, subject, html);
+            _emailService.Send(registerDTO.Email, subject, html);
 
         }
         return Ok(response);

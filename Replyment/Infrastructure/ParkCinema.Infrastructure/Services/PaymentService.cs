@@ -1,7 +1,7 @@
 ﻿using EndProject.Application.DTOs.Payment;
-using ParkCinema.Application.Abstraction.Services.Payment;
+using Replyment.Application.Abstraction.Services.Payment;
 
-namespace ParkCinema.Infrastructure.Services;
+namespace Replyment.Infrastructure.Services;
 
 public class PaymentService : IPaymentService
 {

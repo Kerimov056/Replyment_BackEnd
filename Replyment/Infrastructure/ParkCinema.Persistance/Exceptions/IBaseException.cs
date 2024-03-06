@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Persistance.Exceptions;
+﻿namespace Replyment.Persistance.Exceptions;
 
 public interface IBaseException
 {

@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using ParkCinema.Application.Abstraction.Repositories.IEntityRepository;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.DTOs.Slider;
-using ParkCinema.Domain.Entities;
-using ParkCinema.Persistance.ExtensionsMethods;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.DTOs.Slider;
+using Replyment.Domain.Entities;
+using Replyment.Persistance.ExtensionsMethods;
 
-namespace ParkCinema.Persistance.Implementations.Services;
+namespace Replyment.Persistance.Implementations.Services;
 
 public class SliderServices : ISliderServices
 {

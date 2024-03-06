@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DB00E41C-2F6B-48C5-9A4B-2E2BE6FE80CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkCinema.Application", "Core\ParkCinema.Application\ParkCinema.Application.csproj", "{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replyment.Application", "Core\ParkCinema.Application\Replyment.Application.csproj", "{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkCinema.Domain", "Core\ParkCinema.Domain\ParkCinema.Domain.csproj", "{F137DA49-F186-4137-9807-BA8EB857C4A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replyment.Domain", "Core\ParkCinema.Domain\Replyment.Domain.csproj", "{F137DA49-F186-4137-9807-BA8EB857C4A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkCinema.Infrastructure", "Infrastructure\ParkCinema.Infrastructure\ParkCinema.Infrastructure.csproj", "{D360C39C-635B-4445-92CC-DB49815B0A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replyment.Infrastructure", "Infrastructure\ParkCinema.Infrastructure\Replyment.Infrastructure.csproj", "{D360C39C-635B-4445-92CC-DB49815B0A4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkCinema.Persistance", "Infrastructure\ParkCinema.Persistance\ParkCinema.Persistance.csproj", "{C758B57D-650A-4901-B7D3-E4169255D067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replyment.Persistance", "Infrastructure\ParkCinema.Persistance\Replyment.Persistance.csproj", "{C758B57D-650A-4901-B7D3-E4169255D067}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkCinema.API", "Presentation\ParkCinema.API\ParkCinema.API.csproj", "{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replyment.API", "Presentation\ParkCinema.API\Replyment.API.csproj", "{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

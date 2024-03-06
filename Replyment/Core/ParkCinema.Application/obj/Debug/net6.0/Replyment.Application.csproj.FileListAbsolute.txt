@@ -1,0 +1,16 @@
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\bin\Debug\net6.0\Replyment.Application.deps.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\bin\Debug\net6.0\Replyment.Application.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\bin\Debug\net6.0\Replyment.Application.pdb
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\bin\Debug\net6.0\Replyment.Domain.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\bin\Debug\net6.0\Replyment.Domain.pdb
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.csproj.AssemblyReference.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.AssemblyInfoInputs.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.AssemblyInfo.cs
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.csproj.CoreCompileInputs.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.sourcelink.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replymen.C4F2C58C.Up2Date
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\refint\Replyment.Application.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.pdb
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\ref\Replyment.Application.dll

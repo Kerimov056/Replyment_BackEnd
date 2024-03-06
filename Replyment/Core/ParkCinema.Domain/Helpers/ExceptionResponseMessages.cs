@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Domain.Helpers;
+﻿namespace Replyment.Domain.Helpers;
 
 public class ExceptionResponseMessages
 {

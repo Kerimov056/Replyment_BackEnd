@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.Abstraction.Services.Payment.Stripe;
+﻿namespace Replyment.Application.Abstraction.Services.Payment.Stripe;
 
 public interface IStripePayment : IPayment
 {

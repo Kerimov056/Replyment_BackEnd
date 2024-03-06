@@ -1,7 +1,7 @@
-﻿using ParkCinema.Application.Abstraction.Services.QrCode;
+﻿using Replyment.Application.Abstraction.Services.QrCode;
 using QRCoder;
 
-namespace ParkCinema.Infrastructure.Services.QrCode;
+namespace Replyment.Infrastructure.Services.QrCode;
 
 public class QRCoderServıces : IQRCoderServıces
 {

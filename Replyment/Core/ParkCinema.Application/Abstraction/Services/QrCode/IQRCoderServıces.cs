@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.Abstraction.Services.QrCode;
+﻿namespace Replyment.Application.Abstraction.Services.QrCode;
 
 public interface IQRCoderServıces
 {

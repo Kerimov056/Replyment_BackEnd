@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ParkCinema.Domain.Entities;
+using Replyment.Domain.Entities;
 
-namespace ParkCinema.Persistance.Configurations;
+namespace Replyment.Persistance.Configurations;
 
 public class SliderConfiguration : IEntityTypeConfiguration<Slider>
 {

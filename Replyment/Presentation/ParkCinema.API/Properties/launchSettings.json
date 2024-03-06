@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "ParkCinema.API": {
+    "Replyment.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

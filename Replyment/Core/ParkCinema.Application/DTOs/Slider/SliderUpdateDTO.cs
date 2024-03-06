@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace ParkCinema.Application.DTOs.Slider;
+namespace Replyment.Application.DTOs.Slider;
 
 public class SliderUpdateDTO
 {

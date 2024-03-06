@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Domain.Entities.Common;
+﻿namespace Replyment.Domain.Entities.Common;
 
 public abstract class BaseEntity
 {

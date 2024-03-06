@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ParkCinema.Application.Abstraction.Services;
-using ParkCinema.Application.DTOs.Slider;
+using Replyment.Application.Abstraction.Services;
+using Replyment.Application.DTOs.Slider;
 using System.Net;
 
-namespace ParkCinema.API.Controllers;
+namespace Replyment.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

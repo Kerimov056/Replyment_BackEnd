@@ -1,4 +1,4 @@
-﻿namespace ParkCinema.Application.Abstraction.Services.Payment.PayPal;
+﻿namespace Replyment.Application.Abstraction.Services.Payment.PayPal;
 
 public interface IPayPalPayment : IPayment
 {

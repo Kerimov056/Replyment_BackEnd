@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
-using ParkCinema.Application.Abstraction.Services.Stroge.Local;
+using Replyment.Application.Abstraction.Services.Stroge.Local;
 
-namespace ParkCinema.Infrastructure.Services.Stroge.Local;
+namespace Replyment.Infrastructure.Services.Stroge.Local;
 
 public class LocalStorage : ILocalStorage
 {

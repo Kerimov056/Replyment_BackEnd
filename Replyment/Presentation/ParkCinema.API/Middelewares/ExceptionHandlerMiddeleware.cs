@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
-using ParkCinema.Application.DTOs.ResponseDTOs;
-using ParkCinema.Persistance.Exceptions;
+using Replyment.Application.DTOs.ResponseDTOs;
+using Replyment.Persistance.Exceptions;
 using System.Net;
 
-namespace ParkCinema.API.Middelewares;
+namespace Replyment.API.Middelewares;
 
 public static class ExceptionHandlerMiddeleware
 {
