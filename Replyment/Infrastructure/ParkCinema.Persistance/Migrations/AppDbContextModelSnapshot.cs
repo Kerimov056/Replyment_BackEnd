@@ -155,6 +155,43 @@ namespace Replyment.Persistance.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Replyment.Domain.Entities.Agents", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("CustomButtonId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NumberOrLink")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Posistion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomButtonId");
+
+                    b.ToTable("Agents");
+                });
+
             modelBuilder.Entity("Replyment.Domain.Entities.AppUser", b =>
                 {
                     b.Property<string>("Id")
@@ -179,9 +216,6 @@ namespace Replyment.Persistance.Migrations
 
                     b.Property<string>("Fullname")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<byte[]>("ImagePath")
-                        .HasColumnType("varbinary(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -219,6 +253,7 @@ namespace Replyment.Persistance.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
+                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -238,37 +273,70 @@ namespace Replyment.Persistance.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Replyment.Domain.Entities.CustomizeButton", b =>
+            modelBuilder.Entity("Replyment.Domain.Entities.CustomButton", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("BackgroundColor")
+                    b.Property<string>("AddressUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("BorderRadius")
-                        .HasColumnType("float");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("Height")
-                        .HasColumnType("float");
+                    b.Property<bool>("IsWhatsapp")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("ModiffiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("Width")
-                        .HasColumnType("float");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("WidgetAllStyleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("isDeleted")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
 
-                    b.ToTable("CustomizeButtons");
+                    b.HasIndex("WidgetAllStyleId");
+
+                    b.ToTable("CustomButtons");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Domain", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DomainUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Domains");
                 });
 
             modelBuilder.Entity("Replyment.Domain.Entities.Slider", b =>
@@ -298,6 +366,124 @@ namespace Replyment.Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sliders");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Subscription", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("SubscriptionLevel")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Subscriptions");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.WidgetAllStyle", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AgentName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AgentPosition")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("AvatarImage")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int>("BackgroundStyle")
+                        .HasColumnType("int");
+
+                    b.Property<double>("BorderRadius")
+                        .HasColumnType("float");
+
+                    b.Property<double>("ButtonSize")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ButtonStyle")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CallToAction")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Display")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("DomainId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("GoogleAnalytics")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Greeting")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("GreetingMessage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("Opacity")
+                        .HasColumnType("float");
+
+                    b.Property<bool>("Position")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Shadow")
+                        .HasColumnType("float");
+
+                    b.Property<byte[]>("WidgetButtonImage")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("WidgetColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DomainId")
+                        .IsUnique();
+
+                    b.ToTable("WidgetAllStyles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -349,6 +535,83 @@ namespace Replyment.Persistance.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Agents", b =>
+                {
+                    b.HasOne("Replyment.Domain.Entities.CustomButton", "CustomButton")
+                        .WithMany("Agents")
+                        .HasForeignKey("CustomButtonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CustomButton");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.CustomButton", b =>
+                {
+                    b.HasOne("Replyment.Domain.Entities.WidgetAllStyle", "WidgetAllStyle")
+                        .WithMany("CustomButtons")
+                        .HasForeignKey("WidgetAllStyleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("WidgetAllStyle");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Domain", b =>
+                {
+                    b.HasOne("Replyment.Domain.Entities.AppUser", "AppUser")
+                        .WithMany("Domains")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Subscription", b =>
+                {
+                    b.HasOne("Replyment.Domain.Entities.AppUser", "AppUser")
+                        .WithOne("Subscription")
+                        .HasForeignKey("Replyment.Domain.Entities.Subscription", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.WidgetAllStyle", b =>
+                {
+                    b.HasOne("Replyment.Domain.Entities.Domain", "Domain")
+                        .WithOne("WidgetAllStyle")
+                        .HasForeignKey("Replyment.Domain.Entities.WidgetAllStyle", "DomainId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Domain");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.AppUser", b =>
+                {
+                    b.Navigation("Domains");
+
+                    b.Navigation("Subscription");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.CustomButton", b =>
+                {
+                    b.Navigation("Agents");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.Domain", b =>
+                {
+                    b.Navigation("WidgetAllStyle");
+                });
+
+            modelBuilder.Entity("Replyment.Domain.Entities.WidgetAllStyle", b =>
+                {
+                    b.Navigation("CustomButtons");
                 });
 #pragma warning restore 612, 618
         }

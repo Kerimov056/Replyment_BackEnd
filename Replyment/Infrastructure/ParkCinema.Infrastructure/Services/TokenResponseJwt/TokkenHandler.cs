@@ -54,7 +54,7 @@ public class TokkenHandler : ITokenHandler
         var refleshToken = GenerateRefreshToken();
 
         return new TokenResponseDTO(token, ExpireDate, DateTime.UtcNow.AddMinutes(refreshTokenMinutes),
-            refleshToken, appUser.UserName, appUser.Email, appUser.Id, appUser.ImagePath);
+            refleshToken, appUser.UserName, appUser.Email, appUser.Id);
     }
 
     private string GenerateRefreshToken()

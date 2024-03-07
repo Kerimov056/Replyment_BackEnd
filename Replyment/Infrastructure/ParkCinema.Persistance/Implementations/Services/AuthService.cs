@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Replyment.Application.Abstraction.Services;
 using Replyment.Application.DTOs.Auth;
 using Replyment.Domain.Entities;
-using Replyment.Domain.Enums;
+using Replyment.Domain.Enums.User;
 using Replyment.Domain.Helpers;
 using Replyment.Persistance.Context;
 using Replyment.Persistance.Exceptions;

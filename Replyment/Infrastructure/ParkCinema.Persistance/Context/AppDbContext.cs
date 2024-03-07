@@ -15,6 +15,11 @@ public class AppDbContext : IdentityDbContext<AppUser>
         base.OnModelCreating(modelBuilder);
     }
 
+    public DbSet<AppUser> AppUsers { get; set; }
     public DbSet<Slider> Sliders { get; set; }
-    public DbSet<CustomizeButton> CustomizeButtons { get; set; }
+    public DbSet<Subscription> Subscriptions { get; set; }
+    public DbSet<Replyment.Domain.Entities.Domain> Domains { get; set; }
+    public DbSet<WidgetAllStyle> WidgetAllStyles { get; set; }
+    public DbSet<CustomButton> CustomButtons { get; set; }
+    public DbSet<Agents> Agents { get; set; }
 }

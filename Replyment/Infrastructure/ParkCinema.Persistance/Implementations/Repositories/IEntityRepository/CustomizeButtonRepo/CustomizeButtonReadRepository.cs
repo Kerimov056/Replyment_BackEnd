@@ -4,7 +4,7 @@ using Replyment.Persistance.Context;
 
 namespace Replyment.Persistance.Implementations.Repositories.IEntityRepository.CustomizeButtonRepo;
 
-public class CustomizeButtonReadRepository : ReadRepository<CustomizeButton>, ICustomizeButtonReadRepository
+public class CustomizeButtonReadRepository : ReadRepository<WidgetAllStyle>, ICustomizeButtonReadRepository
 {
     public CustomizeButtonReadRepository(AppDbContext context) : base(context)
     {

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Replyment.Domain.Entities;
-using Replyment.Domain.Enums;
+using Replyment.Domain.Enums.User;
 
 namespace Replyment.Persistance.Context;
 

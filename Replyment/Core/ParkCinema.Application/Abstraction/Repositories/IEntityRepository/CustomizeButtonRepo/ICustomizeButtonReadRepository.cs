@@ -2,6 +2,6 @@
 
 namespace Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomizeButtonRepo;
 
-public interface ICustomizeButtonReadRepository:IReadRepository<CustomizeButton>
+public interface ICustomizeButtonReadRepository:IReadRepository<WidgetAllStyle>
 {
 }

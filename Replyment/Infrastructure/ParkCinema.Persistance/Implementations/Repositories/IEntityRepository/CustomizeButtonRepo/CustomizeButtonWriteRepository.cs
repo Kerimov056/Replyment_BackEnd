@@ -4,7 +4,7 @@ using Replyment.Persistance.Context;
 
 namespace Replyment.Persistance.Implementations.Repositories.IEntityRepository.CustomizeButtonRepo;
 
-public class CustomizeButtonWriteRepository : WriteRepository<CustomizeButton>, ICustomizeButtonWriteRepository
+public class CustomizeButtonWriteRepository : WriteRepository<WidgetAllStyle>, ICustomizeButtonWriteRepository
 {
     public CustomizeButtonWriteRepository(AppDbContext context) : base(context)
     {

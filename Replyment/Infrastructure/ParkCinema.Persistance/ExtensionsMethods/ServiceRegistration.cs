@@ -6,14 +6,22 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.AgentRepo;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomBtn;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomizeButtonRepo;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.DomainRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Application.Abstraction.Services;
 using Replyment.Application.Validators.SliderValidators;
 using Replyment.Domain.Entities;
 using Replyment.Persistance.Context;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.AgentRepo;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.CustomBtn;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.CustomizeButtonRepo;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.DomainRepo;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SliderRepo;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Persistance.Implementations.Services;
 using Replyment.Persistance.MapperProfiles;
 using System.Text;
@@ -72,12 +80,20 @@ public static class ServiceRegistration
     {
         services.AddScoped<ISliderReadRepository, SliderReadRepository>();
         services.AddScoped<ICustomizeButtonReadRepository, CustomizeButtonReadRepository>();
+        services.AddScoped<IAgentReadRepository, AgentReadRepository>();
+        services.AddScoped<ICustomButtonReadRepository, CustomButtonReadRepository>();
+        services.AddScoped<IDomainReadRepository, DomainReadRepository>();
+        services.AddScoped<ISubscriptionReadRepository, SubscriptionReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
     {
         services.AddScoped<ISliderWriteRepository, SliderWriteRepository>();
         services.AddScoped<ICustomizeButtonWriteRepository, CustomizeButtonWriteRepository>();
+        services.AddScoped<IAgentWriteRepository, AgentWriteRepository>();
+        services.AddScoped<ICustomButtonWriteRepository, CustomButtonWriteRepository>();
+        services.AddScoped<IDomainWriteRepository, DomainWriteRepository>();
+        services.AddScoped<ISubscriptionWriteRepository, SubscriptionWriteRepository>();
     }
 
 }

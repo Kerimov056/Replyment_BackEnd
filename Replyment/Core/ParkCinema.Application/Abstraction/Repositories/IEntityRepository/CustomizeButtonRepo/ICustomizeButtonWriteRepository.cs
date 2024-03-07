@@ -2,6 +2,6 @@
 
 namespace Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomizeButtonRepo;
 
-public interface ICustomizeButtonWriteRepository : IWriteRepository<CustomizeButton>
+public interface ICustomizeButtonWriteRepository : IWriteRepository<WidgetAllStyle>
 {
 }

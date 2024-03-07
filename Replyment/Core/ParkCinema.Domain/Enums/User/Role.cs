@@ -1,4 +1,4 @@
-﻿namespace Replyment.Domain.Enums;
+﻿namespace Replyment.Domain.Enums.User;
 
 public enum Role
 {
