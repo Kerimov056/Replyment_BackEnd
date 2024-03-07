@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\implementations\\services\\widgetallstyle\\widgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\widgetallstyle\\widgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\mapperprofiles\\widgetallstyleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\mapperprofiles\\widgetallstyleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Replyment.Application.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.application\\abstraction\\services\\widgetallstyle\\iwidgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Replyment.Application.csproj|solutionrelative:core\\parkcinema.application\\abstraction\\services\\widgetallstyle\\iwidgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WidgetAllStyleProfile.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:44:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwDMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:41:13.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WidgetAllStyleService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAnwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:40:50.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWidgetAllStyleService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\Abstraction\\Services\\WidgetAllStyle\\IWidgetAllStyleService.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Application\\Abstraction\\Services\\WidgetAllStyle\\IWidgetAllStyleService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\Abstraction\\Services\\WidgetAllStyle\\IWidgetAllStyleService.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Application\\Abstraction\\Services\\WidgetAllStyle\\IWidgetAllStyleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:39:37.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

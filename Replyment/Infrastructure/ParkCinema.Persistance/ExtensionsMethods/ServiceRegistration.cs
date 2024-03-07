@@ -13,6 +13,7 @@ using Replyment.Application.Abstraction.Repositories.IEntityRepository.DomainRep
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Application.Abstraction.Services;
+using Replyment.Application.Abstraction.Services.WidgetAllStyle;
 using Replyment.Application.Validators.SliderValidators;
 using Replyment.Domain.Entities;
 using Replyment.Persistance.Context;
@@ -23,6 +24,7 @@ using Replyment.Persistance.Implementations.Repositories.IEntityRepository.Domai
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Persistance.Implementations.Services;
+using Replyment.Persistance.Implementations.Services.WidgetAllStyle;
 using Replyment.Persistance.MapperProfiles;
 using System.Text;
 
@@ -47,6 +49,7 @@ public static class ServiceRegistration
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<ISliderServices,SliderServices>();
         services.AddScoped<ICustomizeButtonService, CustomizeButtonService>();
+        services.AddScoped<IWidgetAllStyleService, WidgetAllStyleService>();
 
 
         //User
