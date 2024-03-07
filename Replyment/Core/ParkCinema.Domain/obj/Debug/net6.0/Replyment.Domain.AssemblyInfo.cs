@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Replyment.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2db641a32fac87b2ac11357facee80e22acf9ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Replyment.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Replyment.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

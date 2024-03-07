@@ -10,9 +10,8 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.In
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.AssemblyInfo.cs
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.sourcelink.json
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replymen.F9E3C26C.Up2Date
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\refint\Replyment.Infrastructure.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.pdb
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ref\Replyment.Infrastructure.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\Replyment.Infrastructure.csproj.CopyComplete

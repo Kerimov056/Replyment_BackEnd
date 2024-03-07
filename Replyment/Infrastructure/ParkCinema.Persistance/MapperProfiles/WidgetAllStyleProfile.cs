@@ -9,5 +9,6 @@ public class WidgetAllStyleProfile:Profile
     public WidgetAllStyleProfile()
     {
         CreateMap<WidgetAllStyle, CreateWidgetAllStyleDto>().ReverseMap();
+        CreateMap<WidgetAllStyle, GetWidgetAllStyleDto>().ReverseMap();
     }
 }

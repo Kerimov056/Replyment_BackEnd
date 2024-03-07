@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s0MZxul86QtO5blJ+09dWkrzPwqbJFBNWmDfoRZqvNk6ExQgZE4fiuEms6QSrIuatqVROdIBbBWrsn/C5lJFcw==",
+  "dgSpecHash": "iuGH0DEJfibj42CHqTs96XsgbIHNAbjhF1thm/iIbaN9gBqrLmA402cWsOVLjUDvZHGuUdusc/+B/+ADYVV9lQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj",
   "expectedPackageFiles": [
@@ -87,26 +87,5 @@
     "C:\\Users\\enelry\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\enelry\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -6,7 +6,6 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\D
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.AssemblyInfoInputs.cache
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.AssemblyInfo.cs
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.csproj.CoreCompileInputs.cache
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.sourcelink.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\Replyment.Domain.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.pdb

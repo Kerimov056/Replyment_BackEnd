@@ -99,7 +99,6 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.csproj.CoreCompileInputs.cache
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.sourcelink.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\staticwebassets\msbuild.Replyment.API.Microsoft.AspNetCore.StaticWebAssets.props
@@ -108,10 +107,10 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Replyment.API.props
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\scopedcss\bundle\Replyment.API.styles.css
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replymen.8DD641EB.Up2Date
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\refint\Replyment.API.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.pdb
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.genruntimeconfig.cache
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\ref\Replyment.API.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\bin\Debug\net6.0\Replyment.API.staticwebassets.runtime.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.csproj.CopyComplete
