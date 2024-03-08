@@ -6,6 +6,6 @@ public class CreateCustomButtonDto
 {
     public string AddressUrl { get; set; }
     public string Name { get; set; }
-    public bool IsWhatsapp { get; set; } = false;
+    public bool IsWhatsapp { get; set; }
     public List<CreateAgentsDto> CreateAgentsDtos { get; set; }
 }

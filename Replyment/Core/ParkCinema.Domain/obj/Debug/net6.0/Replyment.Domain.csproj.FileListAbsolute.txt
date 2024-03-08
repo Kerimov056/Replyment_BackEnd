@@ -10,3 +10,15 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\D
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\Replyment.Domain.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.pdb
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\ref\Replyment.Domain.dll
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Debug\net6.0\Replyment.Domain.deps.json
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Debug\net6.0\Replyment.Domain.dll
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Debug\net6.0\Replyment.Domain.pdb
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.csproj.AssemblyReference.cache
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.AssemblyInfoInputs.cache
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.AssemblyInfo.cs
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.dll
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\Replyment.Domain.dll
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.pdb
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\ref\Replyment.Domain.dll

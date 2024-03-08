@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Replyment.Application.Abstraction.Services.Domain;
 using Replyment.Application.DTOs.Domain;
-using Replyment.Application.DTOs.Slider;
 using System.Net;
 
 namespace Replyment.API.Controllers;
@@ -27,7 +26,6 @@ public class DomainsController : ControllerBase
         var byDomain = await _domainService.GetByIdAsync(id);
         return Ok(byDomain);
     }
-
 
     [HttpPost]
     public async Task<IActionResult> CreateSlider([FromForm] CreateDomainDto createDomainDto)

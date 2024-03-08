@@ -4,8 +4,7 @@ namespace Replyment.Application.DTOs.Subscription;
 
 public class CreateSubscriptionDto
 {
-    public DateTime StartDate { get; set; }
-    public DateTime EndDate { get; set; }
-    public SubscriptionLevel SubscriptionLevel { get; set; }
+    public bool IsPayment { get; set; }
+    public double Price { get; set; }
     public string AppUserId { get; set; }
 }

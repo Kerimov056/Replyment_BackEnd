@@ -13,7 +13,10 @@ using Replyment.Application.Abstraction.Repositories.IEntityRepository.DomainRep
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Application.Abstraction.Services;
+using Replyment.Application.Abstraction.Services.Agent;
+using Replyment.Application.Abstraction.Services.CustomButton;
 using Replyment.Application.Abstraction.Services.Domain;
+using Replyment.Application.Abstraction.Services.Subscription;
 using Replyment.Application.Abstraction.Services.WidgetAllStyle;
 using Replyment.Application.Validators.SliderValidators;
 using Replyment.Domain.Entities;
@@ -25,7 +28,10 @@ using Replyment.Persistance.Implementations.Repositories.IEntityRepository.Domai
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SubscriptionRepo;
 using Replyment.Persistance.Implementations.Services;
+using Replyment.Persistance.Implementations.Services.Agent;
+using Replyment.Persistance.Implementations.Services.CustomButton;
 using Replyment.Persistance.Implementations.Services.Domain;
+using Replyment.Persistance.Implementations.Services.Subscription;
 using Replyment.Persistance.Implementations.Services.WidgetAllStyle;
 using Replyment.Persistance.MapperProfiles;
 using System.Text;
@@ -53,6 +59,9 @@ public static class ServiceRegistration
         services.AddScoped<ICustomizeButtonService, CustomizeButtonService>();
         services.AddScoped<IWidgetAllStyleService, WidgetAllStyleService>();
         services.AddScoped<IDomainService, DomainService>();
+        services.AddScoped<ISubscriptionService, SubscriptionService>();
+        services.AddScoped<ICustomButtonService, CustomButtonService>();
+        services.AddScoped<IAgentService, AgentService>();
 
 
         //User

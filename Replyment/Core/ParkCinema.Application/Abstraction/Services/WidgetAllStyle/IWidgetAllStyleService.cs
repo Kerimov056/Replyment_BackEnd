@@ -4,5 +4,6 @@ namespace Replyment.Application.Abstraction.Services.WidgetAllStyle;
 
 public interface IWidgetAllStyleService
 {
-    Task CreateWidget(CreateWidgetAllStyleDto createWidgetAllStyleDto);
+    Task CreateAsync(CreateWidgetAllStyleDto createWidgetAllStyleDto);
+    Task<List<GetWidgetAllStyleDto>> GetAllAsync(string AppUserId);
 }
