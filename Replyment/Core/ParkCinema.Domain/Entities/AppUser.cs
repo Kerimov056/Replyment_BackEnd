@@ -5,7 +5,6 @@ namespace Replyment.Domain.Entities;
 public class AppUser:IdentityUser
 {
     public string? Fullname { get; set; }
-    public string UserName { get; set; } = null!;
     public bool isActive { get; set; }
     public DateTime? BirthDate { get; set; }
     public DateTime RefreshTokenExpration { get; set; }
