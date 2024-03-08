@@ -33,7 +33,8 @@ public class CustomButtonService : ICustomButtonService
         await _customButtonWriteRepository.AddRangeAsync(newCustomButtons);
         await _customButtonWriteRepository.SaveChangeAsync();
 
-        var IsWhatsappButton = _customButtonReadRepository.GetAll().Where(x => x.IsWhatsapp == true && x.WidgetAllStyleId==widgetId).First();
+        var IsWhatsappButton = _customButtonReadRepository.GetAll().Where(x => x.IsWhatsapp == true 
+                                                        && x.WidgetAllStyleId==widgetId).First();
 
         foreach (var custombuttondto in createCustomButtonDto)
         {

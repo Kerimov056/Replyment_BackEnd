@@ -6,4 +6,5 @@ public interface ISubscriptionService
 {
     Task<GetSubscriptionDto> GetByIdAsync(string AppUserId);
     Task CreateAsync(CreateSubscriptionDto createSubscriptionDto);
+    Task ChangeSubscriptionLevel(Replyment.Domain.Entities.Subscription subscription);
 }

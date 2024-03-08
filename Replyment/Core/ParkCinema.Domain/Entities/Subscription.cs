@@ -7,7 +7,7 @@ public class Subscription:BaseEntity
 {
     public DateTime StartDate { get; set; } = DateTime.Now;
     public DateTime EndDate { get; set; } = DateTime.Now;
-    public SubscriptionLevel SubscriptionLevel { get; set; }
+    public SubscriptionLevel SubscriptionLevel { get; set; } = SubscriptionLevel.UnSubscribed;
     public string AppUserId { get; set; }
     public AppUser AppUser { get; set; }
 }

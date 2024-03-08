@@ -2,6 +2,7 @@
 
 public enum SubscriptionLevel
 {
+    UnSubscribed,
     OneYear,
     EndlessSubscriptio
 }

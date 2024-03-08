@@ -27,6 +27,13 @@ public class SubscriptionService : ISubscriptionService
         _mapper = mapper;
     }
 
+    public async Task ChangeSubscriptionLevel(Replyment.Domain.Entities.Subscription subscription)
+    {
+        subscription.SubscriptionLevel = SubscriptionLevel.UnSubscribed;
+        _subscriptionWriteRepository.Update(subscription);
+        await _subscriptionWriteRepository.SaveChangeAsync();
+    }
+
     public async Task CreateAsync(CreateSubscriptionDto createSubscriptionDto)
     {
         if (createSubscriptionDto.IsPayment is not true) throw new Exception("Payment Failed");
