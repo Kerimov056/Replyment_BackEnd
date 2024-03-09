@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/tYgchPvR1uRKuMnt7S07pOGvwBs1eeiJb8VPEI8Plo=",
+  "Hash": "cYWInupkcru0/b/QCwE1UuMmGPFaQhxW7vorD869omU=",
   "Source": "Replyment.API",
   "BasePath": "_content/Replyment.API",
   "Mode": "Default",
@@ -10,22 +10,24 @@
     {
       "Name": "Replyment.API\\wwwroot",
       "Source": "Replyment.API",
-      "ContentRoot": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\",
       "BasePath": "_content/Replyment.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\templates\\Register.html",
+      "Identity": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\templates\\Register.html",
       "SourceId": "Replyment.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\wwwroot\\",
       "BasePath": "_content/Replyment.API",
       "RelativePath": "templates/Register.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",

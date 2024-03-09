@@ -44,18 +44,18 @@ public class AuthController : ControllerBase
         }
         else
         {
-            string subject = "Register Confirmation";
-            string html = string.Empty;
-            string password = registerDTO.password;
-            string username = registerDTO.Username;
+            //string subject = "Register Confirmation";
+            //string html = string.Empty;
+            //string password = registerDTO.password;
+            //string username = registerDTO.Username;
 
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "Register.html");
-            html = System.IO.File.ReadAllText(filePath);
+            //string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "Register.html");
+            //html = System.IO.File.ReadAllText(filePath);
 
-            html = html.Replace("{{password}}", password);
-            html = html.Replace("{{username}}", password);
+            //html = html.Replace("{{password}}", password);
+            //html = html.Replace("{{username}}", password);
 
-            _emailService.Send(registerDTO.Email, subject, html);
+            //_emailService.Send(registerDTO.Email, subject, html);
 
         }
         return Ok(response);

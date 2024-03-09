@@ -27,8 +27,8 @@ public class CustomButtonService : ICustomButtonService
     public async Task CreateAsync(List<CreateCustomButtonDto> createCustomButtonDto, Guid widgetId)
     {
         var newCustomButtons = new List<Replyment.Domain.Entities.CustomButton>();
-        newCustomButtons.ForEach(x => x.WidgetAllStyleId = widgetId);
         newCustomButtons = _mapper.Map<List<Replyment.Domain.Entities.CustomButton>>(createCustomButtonDto);
+        newCustomButtons.ForEach(x => x.WidgetAllStyleId = widgetId);
 
         await _customButtonWriteRepository.AddRangeAsync(newCustomButtons);
         await _customButtonWriteRepository.SaveChangeAsync();

@@ -23,7 +23,7 @@ public class WidgetAllStylesController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateSlider([FromForm] CreateWidgetAllStyleDto createWidgetAllStyleDto)
+    public async Task<IActionResult> CreateSlider([FromBody] CreateWidgetAllStyleDto createWidgetAllStyleDto)
     {
         await _widgetAllStyleService.CreateAsync(createWidgetAllStyleDto);
         return StatusCode((int)HttpStatusCode.Created);

@@ -1,9 +1,11 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Replyment.Infrastructure;
 using Replyment.Persistance.Context;
 using Replyment.Persistance.ExtensionsMethods;
+using Replyment.API.BackGroundServıces;
 using System.Text;
+using System.Threading;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,7 +42,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-
+Host.CreateDefaultBuilder(args)
+        .ConfigureServices((hostContext, services) =>
+        {
+            services.AddHostedService<SubscriptionBackService>();
+        });
 
 var app = builder.Build();
 

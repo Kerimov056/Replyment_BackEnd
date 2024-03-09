@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Replyment.Application.Abstraction.Services.Subscription;
+using Replyment.Domain.Entities;
+using Replyment.Domain.Enums.SubscriptionLevel;
 using Replyment.Persistance.Context;
 
 namespace Replyment.API.BackGroundServıces;
@@ -33,7 +35,7 @@ public class SubscriptionBackService : IHostedService
 
             var today = DateTime.Now;
             var subscriptionExpired = await dbContext.Subscriptions
-                        .Where(x => x.EndDate.Hour == today.Hour && x.EndDate.Minute == today.Minute)
+                        .Where(x => x.EndDate.Hour == today.Hour && x.EndDate.Minute == today.Minute && x.SubscriptionLevel==SubscriptionLevel.OneYear)
                         .ToListAsync();
 
             foreach (var item in subscriptionExpired)

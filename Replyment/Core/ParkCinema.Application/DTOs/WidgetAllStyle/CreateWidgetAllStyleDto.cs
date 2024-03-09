@@ -9,7 +9,7 @@ namespace Replyment.Application.DTOs.WidgetAllStyle;
 public class CreateWidgetAllStyleDto
 {
     public string WidgetColor { get; set; }
-    public IFormFile WidgetButtonImage { get; set; }
+    public string? WidgetButtonImage { get; set; }
     public ButtonStyle ButtonStyle { get; set; }
     public BackgroundStyle BackgroundStyle { get; set; }
     public double ButtonSize { get; set; }
@@ -19,7 +19,7 @@ public class CreateWidgetAllStyleDto
     public bool Position { get; set; } = true;
     public Display Display { get; set; }
     public bool Greeting { get; set; } = true;
-    public IFormFile AvatarImage { get; set; }
+    public string? AvatarImage { get; set; }
     public string AgentName { get; set; }
     public string AgentPosition { get; set; }
     public string GreetingMessage { get; set; }
@@ -27,5 +27,4 @@ public class CreateWidgetAllStyleDto
     public bool GoogleAnalytics { get; set; } = false;
     public Guid DomainId { get; set; }
     public List<CreateCustomButtonDto> CreateCustomButtonDtos { get; set; }
-
 }

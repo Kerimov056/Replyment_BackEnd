@@ -22,3 +22,4 @@ C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Deb
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\Replyment.Domain.dll
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.pdb
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\ref\Replyment.Domain.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Debug\net6.0\Replyment.Domain.sourcelink.json

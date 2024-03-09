@@ -24,8 +24,8 @@ public class AgentService : IAgentService
     public async Task CreateAsync(List<CreateAgentsDto> createAgentsDto, Guid customButtonId)
     {
         var newAgents = new List<Agents>();
-        newAgents.ForEach(x => x.CustomButtonId = customButtonId);
         newAgents = _mapper.Map<List<Agents>>(createAgentsDto);
+        newAgents.ForEach(x => x.CustomButtonId = customButtonId);
 
         await _agentWriteRepository.AddRangeAsync(newAgents);
         await _agentWriteRepository.SaveChangeAsync();

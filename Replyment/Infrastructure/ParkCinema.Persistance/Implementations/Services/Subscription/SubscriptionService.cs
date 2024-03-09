@@ -41,8 +41,11 @@ public class SubscriptionService : ISubscriptionService
         subscription.AppUserId = createSubscriptionDto.AppUserId;
         
         if (createSubscriptionDto.Price == 3.99)
+        {
             subscription.SubscriptionLevel = SubscriptionLevel.OneYear;
-        
+            subscription.EndDate = DateTime.Now.AddYears(1);
+        }
+
         if (createSubscriptionDto.Price == 144.39)
             subscription.SubscriptionLevel = SubscriptionLevel.EndlessSubscriptio;
 
@@ -55,7 +58,7 @@ public class SubscriptionService : ISubscriptionService
         var byUser = await _userManager.FindByIdAsync(AppUserId);
         if (byUser is null) throw new NotFoundException("User not found");
 
-        var byUserSubscription = await _subscriptionReadRepository.GetAll().Where(x=>x.AppUserId==AppUserId).ToListAsync();
+        var byUserSubscription = await _subscriptionReadRepository.GetAll().Where(x=>x.AppUserId==AppUserId).FirstOrDefaultAsync();
         var toMapperSubscription = _mapper.Map<GetSubscriptionDto>(byUserSubscription);
         return toMapperSubscription;
     }

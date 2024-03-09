@@ -48,6 +48,75 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Domains",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "CreateSlider",
+    "RelativePath": "api/Domains",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DomainUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "GetById",
+    "RelativePath": "api/Domains/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "Remove",
+    "RelativePath": "api/Domains/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Replyment.API.Controllers.SlidersController",
     "Method": "GetAll",
     "RelativePath": "api/Sliders",
@@ -131,6 +200,80 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.SubscriptionsController",
+    "Method": "CreateSlider",
+    "RelativePath": "api/Subscriptions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsPayment",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.SubscriptionsController",
+    "Method": "GetById",
+    "RelativePath": "api/Subscriptions/{AppUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.WidgetAllStylesController",
+    "Method": "GetAll",
+    "RelativePath": "api/WidgetAllStyles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.WidgetAllStylesController",
+    "Method": "CreateSlider",
+    "RelativePath": "api/WidgetAllStyles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createWidgetAllStyleDto",
+        "Type": "Replyment.Application.DTOs.WidgetAllStyle.CreateWidgetAllStyleDto",
         "IsRequired": true
       }
     ],

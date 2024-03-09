@@ -8,7 +8,7 @@ namespace Replyment.Domain.Entities;
 public class WidgetAllStyle:BaseEntity
 {
     public string WidgetColor { get; set; } = "#DA1C5C";  //widgeti ozune aid'dir 
-    public byte[]? WidgetButtonImage { get; set; } //widgeti ozune aid'dir 
+    public string? WidgetButtonImage { get; set; } //widgeti ozune aid'dir 
     public ButtonStyle ButtonStyle { get; set; } = ButtonStyle.Classic;  //butun buttonlara aiddir //Classi qalarsa x,x nisbetidir 
     public BackgroundStyle BackgroundStyle { get; set; } = BackgroundStyle.Solid; //butun buttonlara aiddir
     /// <summary>
@@ -29,7 +29,7 @@ public class WidgetAllStyle:BaseEntity
     /// Demeli Greeting orda elaqe ucun  cixan user kimi fikirles Agent 
     /// </summary>
     public bool Greeting { get; set; } = true;
-    public byte[]? AvatarImage { get; set; }
+    public string? AvatarImage { get; set; }
     public string? AgentName { get; set; }
     public string? AgentPosition { get; set; }
     public string? GreetingMessage { get; set; }

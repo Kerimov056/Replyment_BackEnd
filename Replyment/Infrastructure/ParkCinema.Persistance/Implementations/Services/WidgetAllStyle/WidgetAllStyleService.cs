@@ -7,6 +7,9 @@ using Replyment.Application.Abstraction.Services.CustomButton;
 using Replyment.Application.Abstraction.Services.WidgetAllStyle;
 using Replyment.Application.DTOs.WidgetAllStyle;
 using Replyment.Domain.Entities;
+using Replyment.Domain.Enums.BackgroundStyle;
+using Replyment.Domain.Enums.ButtonStyle;
+using Replyment.Domain.Enums.Display;
 using Replyment.Persistance.Exceptions;
 using Replyment.Persistance.ExtensionsMethods;
 
@@ -42,10 +45,7 @@ public class WidgetAllStyleService : IWidgetAllStyleService
         if (byDomain is null) throw new NotFoundException("Domain not found");
 
         var newWidgets = _mapper.Map<Replyment.Domain.Entities.WidgetAllStyle>(createWidgetAllStyleDto);
-
-        if (createWidgetAllStyleDto.WidgetButtonImage is not null)
-            newWidgets.WidgetButtonImage = await createWidgetAllStyleDto.WidgetButtonImage.GetBytes();
-
+       
         if (createWidgetAllStyleDto.Greeting is false)
         {
             newWidgets.AvatarImage = null;
@@ -53,11 +53,6 @@ public class WidgetAllStyleService : IWidgetAllStyleService
             newWidgets.AgentPosition = null;
             newWidgets.GreetingMessage = null;
             newWidgets.CallToAction = null;
-        }
-        else
-        {
-            if (createWidgetAllStyleDto.AvatarImage is not null)
-                newWidgets.AvatarImage = await createWidgetAllStyleDto.AvatarImage.GetBytes();
         }
 
         await _customizeButtonWriteRepository.AddAsync(newWidgets);

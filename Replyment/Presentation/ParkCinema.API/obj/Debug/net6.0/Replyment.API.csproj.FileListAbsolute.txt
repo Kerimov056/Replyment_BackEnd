@@ -113,7 +113,6 @@ C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.genruntimeconfig.cache
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\ref\Replyment.API.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\bin\Debug\net6.0\Replyment.API.staticwebassets.runtime.json
-C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.csproj.CopyComplete
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\bin\Debug\net6.0\appsettings.json
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\bin\Debug\net6.0\Replyment.API.staticwebassets.runtime.json
@@ -230,3 +229,5 @@ C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\ob
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.pdb
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.genruntimeconfig.cache
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\ref\Replyment.API.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replyment.API.sourcelink.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Presentation\ParkCinema.API\obj\Debug\net6.0\Replymen.8DD641EB.Up2Date
