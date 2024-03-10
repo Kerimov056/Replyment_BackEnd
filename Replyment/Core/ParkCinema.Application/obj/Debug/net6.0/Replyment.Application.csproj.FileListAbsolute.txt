@@ -22,10 +22,11 @@ C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\ob
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.AssemblyInfoInputs.cache
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.AssemblyInfo.cs
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.csproj.CoreCompileInputs.cache
-C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.csproj.CopyComplete
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.dll
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\refint\Replyment.Application.dll
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.pdb
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\ref\Replyment.Application.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.sourcelink.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replymen.C4F2C58C.Up2Date
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replyment.Application.sourcelink.json
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Application\obj\Debug\net6.0\Replymen.C4F2C58C.Up2Date

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Replyment.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e677f3b24cb512d1b44f85cbe3919c7ec2505330")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+751a314425564fe29411c30dec9e7f1c8a9056f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Replyment.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Replyment.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

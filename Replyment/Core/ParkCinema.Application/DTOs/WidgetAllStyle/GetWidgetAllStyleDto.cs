@@ -25,6 +25,6 @@ public class GetWidgetAllStyleDto
     public string CallToAction { get; set; }
     public bool GoogleAnalytics { get; set; }
     public Guid DomainId { get; set; }
-    public List<GetCustomButtonDto> GetCustomButtons { get; set; }
+    public ICollection<GetCustomButtonDto>? GetCustomButtons { get; set; } = new List<GetCustomButtonDto>();
 
 }

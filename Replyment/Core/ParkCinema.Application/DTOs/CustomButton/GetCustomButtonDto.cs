@@ -8,5 +8,6 @@ public class GetCustomButtonDto
     public string Name { get; set; }
     public bool IsWhatsapp { get; set; } = false;
     public Guid WidgetAllStyleId { get; set; }
-    public List<GetAgentDto>? GetAgentDtos { get; set; }
+    public ICollection<GetAgentDto>? GetAgentDtos { get; set; } = new List<GetAgentDto>();
+
 }

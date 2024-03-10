@@ -30,10 +30,11 @@ C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Pers
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.AssemblyInfoInputs.cache
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.AssemblyInfo.cs
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.csproj.CoreCompileInputs.cache
-C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.csproj.CopyComplete
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.dll
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\refint\Replyment.Persistance.dll
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.pdb
 C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\ref\Replyment.Persistance.dll
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.sourcelink.json
 C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replymen.4D5D44F9.Up2Date
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replyment.Persistance.sourcelink.json
+C:\Users\KINO\Desktop\Replyment_BackEnd\Replyment\Infrastructure\ParkCinema.Persistance\obj\Debug\net6.0\Replymen.4D5D44F9.Up2Date
