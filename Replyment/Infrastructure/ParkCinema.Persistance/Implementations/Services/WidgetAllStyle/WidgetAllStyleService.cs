@@ -49,8 +49,8 @@ public class WidgetAllStyleService : IWidgetAllStyleService
 
         if (subscription is null)
             throw new PermissionException("Subscription Yoxdur !!!");
-        if (subscription.SubscriptionLevel.ToString() == SubscriptionLevel.OneYear.ToString() ||
-            subscription.SubscriptionLevel.ToString() == SubscriptionLevel.EndlessSubscriptio.ToString())
+        if (subscription.SubscriptionLevel.ToString() != SubscriptionLevel.OneYear.ToString() &&
+            subscription.SubscriptionLevel.ToString() != SubscriptionLevel.EndlessSubscriptio.ToString())
             throw new PermissionException("Subscription Yoxdur !!!");
 
         var newWidgets = _mapper.Map<Replyment.Domain.Entities.WidgetAllStyle>(createWidgetAllStyleDto);

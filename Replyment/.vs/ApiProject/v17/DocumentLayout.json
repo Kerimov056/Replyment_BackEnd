@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\",
+  "WorkspaceRootPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\backgroundserv\u0131ces\\subscriptionbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\backgroundserv\u0131ces\\subscriptionbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\implementations\\services\\widgetallstyle\\widgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\widgetallstyle\\widgetallstyleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\mapperprofiles\\custombuttonprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\mapperprofiles\\custombuttonprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\mapperprofiles\\widgetallstyleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\mapperprofiles\\widgetallstyleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\implementations\\services\\custombutton\\custombuttonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\custombutton\\custombuttonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\controllers\\widgetallstylescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\controllers\\widgetallstylescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SubscriptionBackService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
-              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
-              "RelativeToolTip": "Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
-              "ViewState": "AQIAABwAAADA//////8vwCoAAABBAAAA",
+              "Title": "WidgetAllStylesController.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\WidgetAllStylesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Controllers\\WidgetAllStylesController.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\WidgetAllStylesController.cs",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\WidgetAllStylesController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBkAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:42:02.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WidgetAllStyleProfile.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
-              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\WidgetAllStyleProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:26:24.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomButtonProfile.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\CustomButtonProfile.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\CustomButtonProfile.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\CustomButtonProfile.cs",
-              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\MapperProfiles\\CustomButtonProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:22:24.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomButtonService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\CustomButton\\CustomButtonService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\CustomButton\\CustomButtonService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\CustomButton\\CustomButtonService.cs",
-              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\CustomButton\\CustomButtonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:21:51.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WidgetAllStyleService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
-              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\WidgetAllStyle\\WidgetAllStyleService.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFEAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:05:35.324Z",
+              "WhenOpened": "2024-03-19T13:33:59.237Z",
               "EditorCaption": ""
             }
           ]
