@@ -403,6 +403,33 @@ namespace Replyment.Persistance.Migrations
                     b.ToTable("Subscriptions");
                 });
 
+            modelBuilder.Entity("Replyment.Domain.Entities.TriggerStatus", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("StatusText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TriggerStatusType")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TriggerStatuses");
+                });
+
             modelBuilder.Entity("Replyment.Domain.Entities.WidgetAllStyle", b =>
                 {
                     b.Property<Guid>("Id")

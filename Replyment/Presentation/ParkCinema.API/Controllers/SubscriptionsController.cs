@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Replyment.Application.Abstraction.Services.Subscription;
-using Replyment.Application.DTOs.Slider;
 using Replyment.Application.DTOs.Subscription;
 using System.Net;
 

@@ -22,4 +22,5 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<WidgetAllStyle> WidgetAllStyles { get; set; }
     public DbSet<CustomButton> CustomButtons { get; set; }
     public DbSet<Agents> Agents { get; set; }
+    public DbSet<TriggerStatus> TriggerStatuses { get; set; }
 }

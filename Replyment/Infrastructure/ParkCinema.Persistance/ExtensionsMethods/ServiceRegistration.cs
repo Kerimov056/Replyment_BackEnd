@@ -12,11 +12,13 @@ using Replyment.Application.Abstraction.Repositories.IEntityRepository.Customize
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.DomainRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.SubscriptionRepo;
+using Replyment.Application.Abstraction.Repositories.IEntityRepository.Trigger;
 using Replyment.Application.Abstraction.Services;
 using Replyment.Application.Abstraction.Services.Agent;
 using Replyment.Application.Abstraction.Services.CustomButton;
 using Replyment.Application.Abstraction.Services.Domain;
 using Replyment.Application.Abstraction.Services.Subscription;
+using Replyment.Application.Abstraction.Services.Trigger;
 using Replyment.Application.Abstraction.Services.WidgetAllStyle;
 using Replyment.Application.Validators.SliderValidators;
 using Replyment.Domain.Entities;
@@ -27,11 +29,13 @@ using Replyment.Persistance.Implementations.Repositories.IEntityRepository.Custo
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.DomainRepo;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SliderRepo;
 using Replyment.Persistance.Implementations.Repositories.IEntityRepository.SubscriptionRepo;
+using Replyment.Persistance.Implementations.Repositories.IEntityRepository.Trigger;
 using Replyment.Persistance.Implementations.Services;
 using Replyment.Persistance.Implementations.Services.Agent;
 using Replyment.Persistance.Implementations.Services.CustomButton;
 using Replyment.Persistance.Implementations.Services.Domain;
 using Replyment.Persistance.Implementations.Services.Subscription;
+using Replyment.Persistance.Implementations.Services.Trigger;
 using Replyment.Persistance.Implementations.Services.WidgetAllStyle;
 using Replyment.Persistance.MapperProfiles;
 using System.Text;
@@ -62,6 +66,7 @@ public static class ServiceRegistration
         services.AddScoped<ISubscriptionService, SubscriptionService>();
         services.AddScoped<ICustomButtonService, CustomButtonService>();
         services.AddScoped<IAgentService, AgentService>();
+        services.AddScoped<ITriggerService, TriggerService>();
 
 
         //User
@@ -99,6 +104,7 @@ public static class ServiceRegistration
         services.AddScoped<ICustomButtonReadRepository, CustomButtonReadRepository>();
         services.AddScoped<IDomainReadRepository, DomainReadRepository>();
         services.AddScoped<ISubscriptionReadRepository, SubscriptionReadRepository>();
+        services.AddScoped<IReadTriggerStatusRepository, ReadTriggerStatusRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
@@ -109,6 +115,7 @@ public static class ServiceRegistration
         services.AddScoped<ICustomButtonWriteRepository, CustomButtonWriteRepository>();
         services.AddScoped<IDomainWriteRepository, DomainWriteRepository>();
         services.AddScoped<ISubscriptionWriteRepository, SubscriptionWriteRepository>();
+        services.AddScoped<IWriteTriggerStatusRepository, WriteTriggerStatusRepository>();
     }
 
 }

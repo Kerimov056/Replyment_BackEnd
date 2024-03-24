@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Replyment.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972642facb0fdb688f17af9d0f73059a3ca4cef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cd9af733121fd7b5cefed6ee757d18a1565ac34")]
 [assembly: System.Reflection.AssemblyProductAttribute("Replyment.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Replyment.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

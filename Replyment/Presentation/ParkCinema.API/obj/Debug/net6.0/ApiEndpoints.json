@@ -86,22 +86,6 @@
   },
   {
     "ContainingType": "Replyment.API.Controllers.DomainsController",
-    "Method": "GetById",
-    "RelativePath": "api/Domains/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Replyment.API.Controllers.DomainsController",
     "Method": "Remove",
     "RelativePath": "api/Domains/{Id}",
     "HttpMethod": "DELETE",
@@ -110,6 +94,22 @@
     "Parameters": [
       {
         "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "GetById",
+    "RelativePath": "api/Domains/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -242,6 +242,53 @@
       {
         "Name": "AppUserId",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.TriggersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Triggers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.TriggersController",
+    "Method": "CreateSlider",
+    "RelativePath": "api/Triggers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StatusText",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TriggerStatusType",
+        "Type": "Replyment.Domain.Enums.Trigger.TriggerStatusType",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.TriggersController",
+    "Method": "Remove",
+    "RelativePath": "api/Triggers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
