@@ -86,22 +86,6 @@
   },
   {
     "ContainingType": "Replyment.API.Controllers.DomainsController",
-    "Method": "Remove",
-    "RelativePath": "api/Domains/{Id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Replyment.API.Controllers.DomainsController",
     "Method": "GetById",
     "RelativePath": "api/Domains/{id}",
     "HttpMethod": "GET",
@@ -110,6 +94,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Replyment.API.Controllers.DomainsController",
+    "Method": "Remove",
+    "RelativePath": "api/Domains/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
         "Type": "System.Guid",
         "IsRequired": true
       }

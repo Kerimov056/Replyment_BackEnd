@@ -1,0 +1,13 @@
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Release\net6.0\Replyment.Domain.deps.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Release\net6.0\Replyment.Domain.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\bin\Release\net6.0\Replyment.Domain.pdb
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.csproj.AssemblyReference.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.AssemblyInfoInputs.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.AssemblyInfo.cs
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.sourcelink.json
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\refint\Replyment.Domain.dll
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\Replyment.Domain.pdb
+C:\Users\enelry\Desktop\Replyment_BackEnd\Replyment\Core\ParkCinema.Domain\obj\Release\net6.0\ref\Replyment.Domain.dll

@@ -37,13 +37,18 @@ public class SubscriptionService : ISubscriptionService
     public async Task CreateAsync(CreateSubscriptionDto createSubscriptionDto)
     {
         if (createSubscriptionDto.IsPayment is not true) throw new Exception("Payment Failed");
+
+        var user = await _userManager.FindByIdAsync(createSubscriptionDto.AppUserId);
+        if (user is null)
+            throw new Exception("User not found");
+
         Replyment.Domain.Entities.Subscription subscription = new();
         subscription.AppUserId = createSubscriptionDto.AppUserId;
         
         if (createSubscriptionDto.Price == 3.99)
         {
             subscription.SubscriptionLevel = SubscriptionLevel.OneYear;
-            subscription.EndDate = DateTime.Now.AddYears(1);
+            subscription.EndDate = DateTime.UtcNow.AddYears(1);
         }
 
         if (createSubscriptionDto.Price == 144.39)

@@ -1,13 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\",
+  "WorkspaceRootPath": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\implementations\\services\\subscription\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\subscription\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Replyment.Application.csproj|c:\\users\\kino\\desktop\\replyment_backend\\replyment\\core\\parkcinema.application\\dtos\\trigger\\createtrggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D360C39C-635B-4445-92CC-DB49815B0A4D}|Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.infrastructure\\services\\tokenresponsejwt\\tokkenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D360C39C-635B-4445-92CC-DB49815B0A4D}|Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj|solutionrelative:infrastructure\\parkcinema.infrastructure\\services\\tokenresponsejwt\\tokkenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D360C39C-635B-4445-92CC-DB49815B0A4D}|Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.infrastructure\\services\\stroge\\storagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D360C39C-635B-4445-92CC-DB49815B0A4D}|Infrastructure\\ParkCinema.Infrastructure\\Replyment.Infrastructure.csproj|solutionrelative:infrastructure\\parkcinema.infrastructure\\services\\stroge\\storagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\implementations\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\backgroundserv\u0131ces\\subscriptionbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\backgroundserv\u0131ces\\subscriptionbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\triggerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\triggerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.domain\\entities\\agents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F137DA49-F186-4137-9807-BA8EB857C4A7}|Core\\ParkCinema.Domain\\Replyment.Domain.csproj|solutionrelative:core\\parkcinema.domain\\entities\\agents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\presentation\\parkcinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Replyment.API.csproj|solutionrelative:presentation\\parkcinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\infrastructure\\parkcinema.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Replyment.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Replyment.Application.csproj|c:\\users\\enelry\\desktop\\replyment_backend\\replyment\\core\\parkcinema.application\\dtos\\trigger\\createtrggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Replyment.Application.csproj|solutionrelative:core\\parkcinema.application\\dtos\\trigger\\createtrggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,28 +94,275 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokkenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Services\\TokenResponseJwt\\TokkenHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Infrastructure\\Services\\TokenResponseJwt\\TokkenHandler.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Services\\TokenResponseJwt\\TokkenHandler.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Infrastructure\\Services\\TokenResponseJwt\\TokkenHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA6wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:37:08.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\Subscription\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\Subscription\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\Subscription\\SubscriptionService.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\Subscription\\SubscriptionService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAApwCoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:59.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StorageFile.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Services\\Stroge\\StorageFile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Infrastructure\\Services\\Stroge\\StorageFile.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Infrastructure\\Services\\Stroge\\StorageFile.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Infrastructure\\Services\\Stroge\\StorageFile.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAqwF0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:52.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\AuthService.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\AuthService.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAAAHkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:50.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SubscriptionsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
               "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
               "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\SubscriptionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T13:02:24.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "SubscriptionBackService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\BackGroundServ\u0131ces\\SubscriptionBackService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:23.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:38.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TriggerStatus.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\TriggerStatus.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\TriggerStatus.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\TriggerStatus.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\TriggerStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:36:06.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Subscription.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\Subscription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:35:52.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Slider.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\Slider.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Slider.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\Slider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:35:51.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:31:11.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Program.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDAAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:43:19.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Domain.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Domain.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\Domain.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Domain.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\Domain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:35:49.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\CustomButton.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\CustomButton.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\CustomButton.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\CustomButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:35:40.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:34:29.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Agents.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Agents.cs",
+              "RelativeDocumentMoniker": "Core\\ParkCinema.Domain\\Entities\\Agents.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Domain\\Entities\\Agents.cs",
+              "RelativeToolTip": "Core\\ParkCinema.Domain\\Entities\\Agents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:34:28.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240328132950_Init.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\Migrations\\20240328132950_Init.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:29:50.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:23:51.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAowG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:43:24.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Presentation\\ParkCinema.API\\appsettings.json",
+              "RelativeToolTip": "Presentation\\ParkCinema.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-28T12:42:47.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CreateTrggerDto.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
               "RelativeDocumentMoniker": "Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\Replyment_BackEnd\\Replyment\\Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
               "RelativeToolTip": "Core\\ParkCinema.Application\\DTOs\\Trigger\\CreateTrggerDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Replyment.API.BackGroundServıces;
 using Replyment.Infrastructure;
 using Replyment.Persistance.Context;
 using Replyment.Persistance.ExtensionsMethods;
-using Replyment.API.BackGroundServıces;
 using System.Text;
-using System.Threading;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +15,11 @@ builder.Services.AddControllers();
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<AppDbContextInitializer>();
+
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<AppDbContext>(opt =>
+         opt.UseNpgsql(builder.Configuration.GetConnectionString("Default"),
+         b => b.MigrationsAssembly("Replyment.API")));
+
 
 builder.Services.AddCors();
 builder.Services.AddCors(options =>
@@ -70,11 +75,8 @@ using (var scope = app.Services.CreateScope())
 }
 
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors();
 app.UseCors(cors => cors

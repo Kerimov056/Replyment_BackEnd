@@ -47,8 +47,7 @@ public class TokkenHandler : ITokenHandler
             claims: claims,
             notBefore: DateTime.UtcNow,
             expires: ExpireDate,
-            signingCredentials: credentials
-            );
+            signingCredentials: credentials);
 
         var token = new JwtSecurityTokenHandler().WriteToken(jwt);
         var refleshToken = GenerateRefreshToken();

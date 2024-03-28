@@ -91,7 +91,7 @@ public class StorageFile : IStorageFile
     {
         string filename = "";
         var extension = "." + file.FileName.Split(".")[file.FileName.Split('.').Length - 1];
-        filename = DateTime.Now.Ticks.ToString() + extension;
+        filename = DateTime.UtcNow.Ticks.ToString() + extension;
 
         var filepath = Path.Combine(Directory.GetCurrentDirectory(), pathOrContainerName);
 

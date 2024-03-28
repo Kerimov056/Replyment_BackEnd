@@ -1,11 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.AgentRepo;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomBtn;
 using Replyment.Application.Abstraction.Repositories.IEntityRepository.CustomizeButtonRepo;
@@ -38,7 +34,6 @@ using Replyment.Persistance.Implementations.Services.Subscription;
 using Replyment.Persistance.Implementations.Services.Trigger;
 using Replyment.Persistance.Implementations.Services.WidgetAllStyle;
 using Replyment.Persistance.MapperProfiles;
-using System.Text;
 
 namespace Replyment.Persistance.ExtensionsMethods;
 
@@ -47,11 +42,6 @@ public static class ServiceRegistration
 
     public static void AddPersistenceServices(this IServiceCollection services)
     {
-        services.AddDbContext<AppDbContext>(options =>
-        {
-            options.UseSqlServer(services.BuildServiceProvider().GetService<IConfiguration>().GetConnectionString("Default"));
-        });
-
 
         //Repository
         services.AddReadRepositories();

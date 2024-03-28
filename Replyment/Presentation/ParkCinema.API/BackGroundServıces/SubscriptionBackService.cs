@@ -33,7 +33,7 @@ public class SubscriptionBackService : IHostedService
             var subscriptionService = scope.ServiceProvider.GetRequiredService<ISubscriptionService>();
 
 
-            var today = DateTime.Now;
+            var today = DateTime.UtcNow;
             var subscriptionExpired = await dbContext.Subscriptions
                         .Where(x => x.EndDate.Hour == today.Hour && x.EndDate.Minute == today.Minute && x.SubscriptionLevel==SubscriptionLevel.OneYear)
                         .ToListAsync();
